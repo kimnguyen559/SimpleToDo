@@ -2,9 +2,7 @@
 
 SimpleToDo is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-By: 		  Kim Nguyen 
-Date: 		10/04/2016
-Email: 		kimnguyen559@gmail.com
+By: 		  Kim Nguyen - kimnguyen559@gmail.com
 
 ## User Stories
 
@@ -27,7 +25,7 @@ The following  features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://www.giphy.com/gifs/3o6Zt78hpIX7bcvfBC/' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Video Walkthrough](http://www.giphy.com/gifs/3o6Zt78hpIX7bcvfBC/).
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
