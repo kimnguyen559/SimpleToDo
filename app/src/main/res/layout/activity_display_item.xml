@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.scu.klnguyen.simpletodo.DisplayItemActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Task name here..."
+        android:textColor="#ec583a"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/name2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/close"
+        android:layout_alignEnd="@+id/close"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Due "
+        android:id="@+id/date1"
+        android:layout_below="@+id/name2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date2"
+        android:hint="10/28/1969"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignBaseline="@+id/date1"
+        android:layout_toRightOf="@+id/date1"
+        android:layout_toEndOf="@+id/date1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Notes"
+        android:id="@+id/note1"
+        android:layout_below="@+id/date2"
+        android:layout_alignLeft="@+id/date1"
+        android:layout_alignStart="@+id/date1"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter notes for task here..."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/note2"
+        android:layout_alignBaseline="@+id/note1"
+        android:layout_alignLeft="@+id/date2"
+        android:layout_alignStart="@+id/date2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Priority "
+        android:id="@+id/level1"
+        android:layout_below="@+id/note2"
+        android:layout_alignLeft="@+id/note1"
+        android:layout_alignStart="@+id/note1"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/level2"
+        android:hint="HIGH"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignBaseline="@+id/level1"
+        android:layout_alignLeft="@+id/note2"
+        android:layout_alignStart="@+id/note2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Status"
+        android:id="@+id/status1"
+        android:layout_below="@+id/level2"
+        android:layout_alignLeft="@+id/level1"
+        android:layout_alignStart="@+id/level1"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status2"
+        android:hint="TO-DO"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignBaseline="@+id/status1"
+        android:layout_alignLeft="@+id/level2"
+        android:layout_alignStart="@+id/level2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:src="@drawable/edit"
+        android:layout_below="@+id/status1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/close"
+        android:src="@drawable/close_2"
+        android:layout_alignTop="@+id/edit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:src="@drawable/bin"
+        android:layout_alignTop="@+id/close"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
