@@ -8,11 +8,11 @@ SimpleToDo is an android app that allows building a todo list and basic todo ite
 * User can persist todo items and retrieve them properly on app restart
 
 #### The following  features are implemented:
-* Persist the todo items into SQLite
+* Persist the todo items into *SQLite*
 * Improve style of the todo items in the list using a custom adapter
-* Add support for completion due dates for todo items using DatePicker (and display within listview item)
-* Use a DialogFragment for editing items
-* Add support for selecting the priority of each todo item using Spinner and display in ascending order
+* Add support for completion due dates for todo items using *DatePicker* (and display within listview item)
+* Use a *DialogFragment* for editing items
+* Add support for selecting the priority of each todo item using *Spinner* and display in ascending order
 * Tweak the style improving the UI / UX with colors and images 
 
 ## Video Walkthrough 
